@@ -1,17 +1,35 @@
+
 Machine: a plus
-Initial string: 
+Initial string: ''
+ [q1] _ 
 String rejected in 1 transitions.
 
 Machine: a plus
-Initial string: a
+Initial string: 'a'
+ [q1] a _
+a [q1] _ 
+a [q2] _ 
+ [q3] a _
 String accepted in 2 transitions.
+
+Trace Path of Accepting Configurations:
  [q1] a _
 a [q2] _ 
  [q3] a _
 
 Machine: a plus
-Initial string: aaa
+Initial string: 'aaa'
+ [q1] a aa_
+a [q1] a a_
+a [q2] a a_
+aa [q1] a _
+aa [q2] a _
+aaa [q1] _ 
+aaa [q2] _ 
+aa [q3] a _
 String accepted in 4 transitions.
+
+Trace Path of Accepting Configurations:
  [q1] a aa_
 a [q1] a a_
 aa [q1] a _
