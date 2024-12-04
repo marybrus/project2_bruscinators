@@ -1,4 +1,4 @@
-Summary Table:
+Summary Table (Machine: a plus):
 +----------+------------+---------+------------------+------------------+
 | String   | Accepted   |   Depth |   Configurations |   Nondeterminism |
 +==========+============+=========+==================+==================+
